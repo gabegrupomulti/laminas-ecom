@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJI AIR 3S</title>
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="input.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Dobra 01 -->
+  <section class="dobra-01 banner">
+    <h3 class="feature__title"><strong>DJI AIR 3</strong>S</h3>
+    <h3 class="feature__subtitle">Capture o mundo de cima</h3>
+  </section>
+
+  <!-- Dobra 02 -->
+  <section class="dobra-02 gallery">
+    <div class="gallery__container">
+      <img class="gallery__image gallery__image-01" src="assets/images/dobra-02--image-01.png" alt="Imagem 1">
+      <img class="gallery__image gallery__image-02" src="assets/images/dobra-02--image-02.png" alt="Imagem 2">
+      <img class="gallery__image gallery__image-03" src="assets/images/dobra-02--image-03.png" alt="Imagem 3">
+      <img class="gallery__image gallery__image-04" src="assets/images/dobra-02--image-04.png" alt="Imagem 4">
+      <img class="gallery__image gallery__image-05" src="assets/images/dobra-02--image-05.png" alt="Imagem 5">
+      <img class="gallery__image gallery__image-06" src="assets/images/dobra-02--image-06.png" alt="Imagem 6">
+    </div>
+  </section>
+
+  <!-- Dobra 03 -->
+  <section class="dobra-03 feature">
+    <div class="feature__content">
+      <h3 class="feature__title">Qualidade de imagem</br> sem igual, duas câmeras</h3>
+      <p class="feature__description">O DJI Air 3S é equipado com um sistema de câmera dupla. A câmera primária tem sensor CMOS de 1 polegada com lente de 24 mm e a secundária tem sensor CMOS de 1/1.3 polegada com lente de 70 mm. Faça imagens profissionais, desde paisagens e arquitetura até veículos e atletas com profundidade de campo e aparência cinematográfica.</p>
+    </div>
+  </section>
+
+  <!-- Dobra 04 -->
+  <section class="dobra-04 showcase">
+    <img class="showcase__image desktop" src="assets/images/dobra-04.png" alt="Imagem Principal">
+    <img class="showcase__image mobile" src="assets/images/dobra-04--mobile.png" alt="Imagem Principal">
+    
+      
+    <div class="showcase">
+      <div class="showcase__gallery showcase__gallery--arquitetura">
+        <img class="showcase__gallery-image" src="assets/images/dobra-04--image-01.png" alt="Miniatura 1">
+        <img class="showcase__gallery-image" src="assets/images/dobra-04--image-02.png" alt="Miniatura 2">
+      </div>
+    
+      <div class="showcase__gallery showcase__gallery--lagos" style="display: none;">
+        <img class="showcase__gallery-image" src="assets/images/dobra-04--image-03.png" alt="Miniatura 1">
+        <img class="showcase__gallery-image" src="assets/images/dobra-04--image-04.png" alt="Miniatura 2">
+      </div>
+    
+      <div class="showcase__gallery showcase__gallery--montanhas" style="display: none;">
+        <img class="showcase__gallery-image" src="assets/images/dobra-04--image-05.png" alt="Miniatura 1">
+        <img class="showcase__gallery-image" src="assets/images/dobra-04--image-06.png" alt="Miniatura 2">
+      </div>
+    </div>
+    
+    <div class="button-container">
+      <button class="category-button active" onclick="showGallery('arquitetura', this)">Arquitetura</button>
+  <button class="category-button" onclick="showGallery('lagos', this)">Lagos</button>
+  <button class="category-button" onclick="showGallery('montanhas', this)">Montanhas</button>
+    </div>
+    
+  </section>
+
+  <!-- Dobra 05 -->
+  <section class="dobra-05 camera">
+    <h3 class="camera__title gradient--text">Detalhamento impressionante: câmera primária com sensor CMOS de 1”</h3>
+    <div class="camera__content">
+      <p class="camera__description">A câmera principal do DJI Air 3S tem um sensor CMOS 1” integrado de 50MP. Grave em até 4K/60 fps com HDR e 4K/120 fps, ou com o perfil de cores D-Log M de 10 bits. O sensor, melhorado com tecnologia avançada de processamento de imagem e algoritmos inteligentes, preserva até os mínimos detalhes, mesmo em condições com pouca luz. Faça registros profissionais do pôr do sol, paisagens noturnas e muito mais!</p>
+      <img class="camera__image" src="assets/images/dobra-05.png" alt="Câmera">
+    </div>
+  </section>
+
+  <!-- Dobra 06 -->
+  <section class="dobra-06 features-list">
+    <h3 class="features-list__title gradient--text">Imagens aprimoradas,</br> paisagens incríveis</h3>
+    <div class="features-list__content">
+      
+    </div>
+
+    <section class="dobra-04 showcase showcase-paragraph">
+
+      
+      <div class="showcase">
+        <div class="showcase__gallery showcase__gallery--video-4k-hdr">
+          <img class="showcase__gallery-image" src="assets/images/dobra-04--image-07.png" alt="Miniatura 1">
+          <p class="showcase__paragraph">O mais recente modo de vídeo HDR oferece até 14 paradas de alcance dinâmico, capturando imagens cinematográficas em cenas de alto contraste, como visualizações detalhadas de texturas de nuvens e outros elementos durante o nascer e o pôr do sol.</p>
+        </div>
+      
+        <div class="showcase__gallery showcase__gallery--video-120fps" style="display: none;">
+          <img class="showcase__gallery-image" src="assets/images/dobra-04--image-08.png" alt="Miniatura 1">
+          <p class="showcase__paragraph">A resolução e a taxa de quadros aprimoradas acrescentam uma perspectiva vibrante a eventos culturais ou esportivos, ampliando as possibilidades criativas durante a edição.</p>
+          
+        </div>
+
+        <div class="showcase__gallery showcase__gallery--video-hlg" style="display: none;">
+          <img class="showcase__gallery-image" src="assets/images/dobra-04--image-09.png" alt="Miniatura 1">
+          <p class="showcase__paragraph">Mesmo no perfil de cores normal, é possível gravar vídeos de 10 bits usando codificação H.265, proporcionando desempenho de cores refinado e maior flexibilidade na pós-produção, com o ISO máximo elevado para 12.800. Nos perfis de cores D-Log M e HLG, o ISO máximo foi aumentado para 3.200, permitindo maior brilho e mais detalhes em cenas urbanas noturnas.</p>
+        </div>
+      </div>
+      
+      <div class="button-container">
+        <button class="category-button active" onclick="showGallery('video-4k-hdr', this)">Vídeos em 4K/60 fps em HDR</button>
+        <button class="category-button" onclick="showGallery('video-120fps', this)">Vídeos em 4K/120 fps</button>
+        <button class="category-button" onclick="showGallery('video-hlg', this)">Vídeos em HLG & D-Log M de 10 bits</button>
+      </div>
+  </section>
+  
+  </section>
+
+  <!-- Dobra 07 -->
+  <section class="dobra-07 telephoto">
+    <h3 class="telephoto__title gradient--text">Câmera Tele média:</br> retratos inesquecíveis</h3> 
+    <div class="telephoto__content">
+      <p class="telephoto__description">A câmera Tele média, com seu sensor CMOSde 48 MP e 1/1,3”, suporta as mesmas especificações de vídeo e perfis de cores da câmera principal. O que garante gravações visualmente consistentes, simplificando a edição. Sua lente de 70 mm oferece zoom óptico de 3×, permitindo fazer gravações únicas à distância ao mesmo tempo em que coloca o alvo em destaque. E ao usar o DJI Air 3S para gravar um vídeo em 4K circundando o alvo, obtenha cenas detalhadas e expressivas com zoom.</p>
+      <img class="telephoto__image" src="assets/images/dobra-05.png" alt="Telephoto">
+    </div>
+  </section>
+
+  <!-- Dobra 08 -->
+  <section class="dobra-08 panorama">
+    <h3 class="panorama__title gradient--text">Panorâmica livre</h3>
+    <p class="panorama__description">As duas câmeras do DJI Air 3S suportam o novo modo Panorâmica Livre, que permite criar fotos panorâmicas perfeitas em qualquer formato e tamanho. A função junta várias imagens diferentes com um tema comum ou em uma área selecionada manualmente.</p>
+    <img class="panorama__image" src="assets/images/dobra-08.png" alt="Panorama">
+    <p class="panorama__description">O DJI Air 3S também é compatível com os recursos favoritos do público, como registros verticais de 2,7K, MasterShots, QuickShots, Hyperlapse e muito mais!</p>
+  </section>
+
+  <!-- Dobra 09 -->
+  <section class="dobra-09 safety">
+    <h3 class="safety__title">Voos mais seguros</h3>
+  </section>
+
+  <!-- Dobra 10 -->
+  <section class="dobra-10 lidar">
+    <h3 class="lidar__title gradient--text">Detecção de obstáculos</br>omnidirecional com LiDAR</h3>
+    <p class="lidar__description">O primeiro drone da DJI equipado com sensor frontal LiDAR , sensor infravermelho inferior e seis sensores de visão (dois na frente, dois na parte frontal e dois traseiros) para detecção de obstáculos omnidirecional avançada, mesmo à noite.</p>
+    <img class="lidar__image" src="assets/images/dobra-10.png" alt="LiDAR">
+  </section>
+
+  <!-- Dobra 11 -->
+  <section class="dobra-11 return-home">
+    <h3 class="return-home__title gradient--text">Retorno à base inteligente de última geração</h3>
+    <section class="dobra-04 showcase showcase-paragraph">
+
+      
+      <div class="showcase">
+        <div class="showcase__gallery showcase__gallery--rth-sem-gps">
+          <img class="showcase__gallery-image" src="assets/images/dobra-04--image-10.png" alt="Miniatura 1">
+          <p class="showcase__paragraph">Impulsionado por tecnologias de posicionamento visual e de construção de mapas em tempo real, o DJI Air 3S memoriza rotas de voo quando há disponível iluminação suficiente. Isso garante um retorno seguro mesmo ao decolar de locais sem sinal de satélite, como varandas.</p>
+        </div>
+      
+        <div class="showcase__gallery showcase__gallery--rth-noturno" style="display: none;">
+          <img class="showcase__gallery-image" src="assets/images/dobra-04--image-11.png" alt="Miniatura 1">
+          <p class="showcase__paragraph">Com LiDAR frontal, o DJI Air 3S é capaz de detectar obstáculos como prédios altos e subir para contorná-los de cima, mesmo em condições com pouca luz, garantindo o retorno à base em segurança à noite.</p>
+          
+        </div>
+      </div>
+      
+      <div class="button-container">
+        <button class="category-button active" onclick="showGallery('rth-sem-gps', this)">RTH sem GPS</button>
+        <button class="category-button" onclick="showGallery('rth-noturno', this)">RTH noturno</button>
+        
+      </div>
+  </section>
+  </section>
+
+  <!-- Dobra 12 -->
+  <section class="dobra-12 assistance">
+    <h3 class="assistance__title gradient--text">Assistência visual aprimorada</h3>
+    <p class="assistance__description">A assistência visual do DJI Air 3S conta com visão inferior, além das visões frontal, traseira, esquerda e direita para ajudar você a compreender melhor o ambiente ao seu redor.</p>
+    <img class="assistance__image" src="assets/images/dobra-12.png" alt="Assistência Visual">
+
+    <p class="assistance__description">O DJI Air 3S também oferece voo com trajetória e piloto automático, entre outros recursos avançados, permitindo predefinir rotas de voo e ações da câmera, além de travar rapidamente os pinos de controle para liberar sua criatividade.</p>
+  </section>
+
+  <!-- Dobra 13 -->
+  <section class="dobra-white">
+    <h3 class="tracking__title">ActiveTrack em 360°</br>otimizando a estética</br>visual</h3>
+  </section>
+
+
+  <section class="dobra-13 tracking">
+    <div class="tracking__details tracking__details-01">
+      <div class="tracking__feature feature--01">
+        <div class="tracking__feature--description">
+          <h5 class="tracking__feature-title">ActiveTrack em 360°</h5>
+          <p class="tracking__feature-description">O drone planeja e voa automaticamente em uma trajetória propícia para ajustar o enquadramento e garantir as melhores composições para as suas imagens.</p>
+        </div>
+        
+        <img class="tracking__feature-image" src="assets/images/dobra-13--image.png" alt="ActiveTrack">
+      </div>
+
+
+      <div class="tracking__feature feature--02">
+        <div class="tracking__feature--description">
+          <h5 class="tracking__feature-title">Desempenho de rastreamento otimizado</h5>
+        <p class="tracking__feature-description">O DJI Air 3S consegue manter o objeto em foco mesmo se a parte debaixo do corpo estiver tampada por arbustos ou se ele estiver em uma ponte.</p>
+        </div>
+        
+        <img class="tracking__feature-image" src="assets/images/dobra-13--image-02.png" alt="ActiveTrack">
+      </div>
+
+      <div class="tracking__feature feature--03">
+        <div class="tracking__feature--description">
+          <h5 class="tracking__feature-title">Mantenha-se focado</br> no que importa</h5>
+        <p class="tracking__feature-description">O DJI Air 3S apresenta um novo recurso de Foco no Alvo que mantém o alvo nitidamente em foco, mesmo durante voos manuais ou ao mover-se fora do centro do quadro. Esse recurso permite que você se concentre totalmente nos aspectos mais criativos ao gravar, como composição e movimento da câmera.</p>
+        </div> 
+        
+        <video class="tracking__feature-image tracking__feature-video" src="assets/dobra-13--video.mp4" muted controls autoplay></video>
+      </div>
+    </div>
+
+
+ 
+
+   
+
+    
+  </section>
+
+  <div class="bg-grey dobra-13">
+    <h3 class="tracking__title">Distância de voo e transmissão prolongadas</h3>
+
+    <div class="tracking__details tracking__details-02">
+      
+      <div class="tracking__feature feature--01">
+        <div class="tracking__feature--description">
+          <h5 class="tracking__feature-title">Tempo de voo prolongado: máx. de 45 min.</h5>
+          <p class="tracking__feature-description">Com até 45 minutos de voo, o Air 3S oferece tempo suficiente para explorar locais, registrar tudo e ainda recomeçar, se for preciso!</p>
+        </div>
+        <img class="tracking__feature-image" src="assets/images/dobra-13--image.png" alt="ActiveTrack">
+      </div>
+
+
+      <div class="tracking__feature feature--02">
+        <div class="tracking__feature--description">
+          <h5 class="tracking__feature-title">Transmissão de vídeo O4 de 10 bits</h5>
+          <p class="tracking__feature-description">Equipado com a tecnologia de transmissão de vídeo DJI O4 FHD, o DJI Air 3S oferece transmissão de vídeo de 10 bits a 1080p/60 fps em distâncias de até 20 quilômetros.</p>
+        </div>
+        <img class="tracking__feature-image" src="assets/images/dobra-13--image-02.png" alt="ActiveTrack">
+      </div>
+    </div>
+  </div>
+  
+  <section class="dobra-15--bg">
+    <div class="dobra-15">
+      <div class="dobra-15--description">
+        <h3>A DJI tem um canal oficial para a compra dos produtos no Brasil</h3>
+      
+        <p>Comprando na Loja Oficial DJI Brasil, você tem
+          a segurança de receber um produto original, regulamentado, certificado pelas agências nacionais competentes e ainda fica 100% protegido pela nossa garantia e assistência.</p>
+          <p>ATENÇÃO: não nos responsabilizamos por produtos adquiridos em outros canais que não os oficiais.</p>
+      </div>
+     
+      <img src="assets/images/dobra-15.png" alt="">
+    </div>
+    
+  </section>
+
+  <!-- Dobra 14 -->
+  <section class="dobra-14 package">
+    <h3 class="package__title">Na caixa</h3>
+    <div class="package__content">
+      <h4 class="package__subtitle">DJI Air 3S Standard (sem tela)</h4>
+      <div class="package__gallery">
+        <img class="package__image" src="assets/images/dobra-14-image-01.png" alt="Item 1">
+        <img class="package__image" src="assets/images/dobra-14-image-02.png" alt="Item 2">
+        <img class="package__image" src="assets/images/dobra-14-image-03.png" alt="Item 3">
+        <img class="package__image" src="assets/images/dobra-14-image-04.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-05.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-06.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-06-2.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-07.png" alt="Item 4">
+      </div>
+    </div>
+
+
+
+
+    <div class="package__content">
+      <h4 class="package__subtitle">DJI Air 3S Fly More Combo (sem tela)</h4>
+      <div class="package__gallery">
+        <img class="package__image" src="assets/images/dobra-14-image-01.png" alt="Item 1">
+        <img class="package__image" src="assets/images/dobra-14-image-02.png" alt="Item 2">
+        <img class="package__image" src="assets/images/dobra-14-image-03.png" alt="Item 3">
+        <img class="package__image" src="assets/images/dobra-14-image-08.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-09.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-10.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-04.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-05.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-06-2.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-06-3.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-07.png" alt="Item 4">
+        
+      </div>
+    </div>
+
+
+
+    <div class="package__content">
+      <h4 class="package__subtitle">DJI Air 3S Fly More Combo (com tela)</h4>
+      <div class="package__gallery">
+        <img class="package__image" src="assets/images/dobra-14-image-01.png" alt="Item 1">
+        <img class="package__image" src="assets/images/dobra-14-image-02-2.png" alt="Item 2">
+        <img class="package__image" src="assets/images/dobra-14-image-03.png" alt="Item 3">
+        <img class="package__image" src="assets/images/dobra-14-image-08.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-09.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-10.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-04-2.png" alt="Item 4">
+        <img class="package__image" src="assets/images/dobra-14-image-05.png" alt="Item 4">
+        
+        <img class="package__image" src="assets/images/dobra-14-image-07.png" alt="Item 4">
+        
+      </div>
+    </div>
+  </section>
+
+  <script src="https://multilaser.vteximg.com.br/arquivos/iframeResizer.contentWindow.min.js"></script>
+</body>
+
+<script src="script.js"></script>
+
+</html>
