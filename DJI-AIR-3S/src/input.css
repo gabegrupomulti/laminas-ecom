@@ -168,13 +168,21 @@
   }
 
   .dobra-09{
-    background: url("./assets/images/dobra-09.png") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vw;
+    height: 56vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    margin-bottom: 64px;
+  }
+
+  .dobra-09 .dji-videos-style-full{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
   }
   
   .dobra-white{
@@ -222,6 +230,7 @@
   .dobra-01  .feature__subtitle{
     font-size: 30px;
   }
+
   
 
   .feature__title{
@@ -264,7 +273,6 @@
   .tracking__title, 
   .camera__title, 
   .telephoto__title, 
-  .safety__title,
   .features-list__title,
   .return-home__title {
     font-size: 38px;
@@ -272,6 +280,13 @@
     text-align: center;
     font-weight: 600;
   }
+
+
+  .safety__title{
+    font-size: 64px;
+    font-weight: 600;
+  }
+
 
   .dobra-12{
     flex-direction: column;
@@ -289,6 +304,10 @@
   }
 
 
+  .dobra-13 .feature--01 .dji-videos-style ,.dobra-13 .feature--02 .dji-videos-style{
+    max-width: 600px;
+  }
+
   .dobra-13 .tracking__details-01, .dobra-13 .tracking__details-02, .dobra-13 .tracking__details-03{
    display: flex;
    flex-direction: column; 
@@ -301,7 +320,7 @@
   .dobra-13 .feature--01, .dobra-13 .feature--02{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 64px;
   }
 
@@ -394,23 +413,34 @@
   .dobra-04 .showcase__gallery{
     display: flex;
     flex-direction: row;
+    max-width: 968px;
   }
 
   .dobra-04 .desktop{
     max-width: 920px;
   }
 
+
+  .dobra-04 .showcase{
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dobra-04 .showcase__gallery{
+    gap: 16px;
+  }
   
   .showcase__gallery img {
-    max-width: 420px;
-    margin: 5px;
+    max-width: 416px;
+    
     width: 100%;
     transition: transform 0.2s;
   }
   
-  .showcase__gallery img:hover {
-    transform: scale(1.025);
-  }
+
   
   .button-container {
     display: flex;
@@ -530,8 +560,16 @@
       height: 70vw;
     }
 
-    .dobra-05, .dobra-07, .dobra-10, .dobra-12, .dobra-13, .dobra-14, .dobra-08{
+    .dobra-05, .dobra-07, .dobra-10, .dobra-12, .dobra-13, .dobra-14{
       padding: 32px;
+    }
+
+    .dobra-08{
+      padding: 0px;
+    }
+
+    .dobra-08 .panorama__description{
+      padding: 0 32px;
     }
 
      .dobra-15{
@@ -539,9 +577,11 @@
      }
     .dobra-05 .camera__content,
     .dobra-07 .telephoto__content{
-      flex-direction: column;
+      flex-direction: column-reverse;
       text-align: center;
     }
+
+    
 
     .showcase__paragraph{
       max-width: fit-content;
@@ -556,7 +596,7 @@
 
   @media (max-width: 976px) {
     .showcase__gallery img{
-      max-width: 380px;
+      
     }
     .gallery__container{
       display: flex;
@@ -568,6 +608,10 @@
     .dobra-04 .mobile{
       display: flex !important;
     }
+
+    .lidar__image{
+      margin-top: -32px;
+    }
   }
 
   @media (max-width: 800px) {
@@ -576,6 +620,13 @@
       height: 100vw;
     }
 
+    .dobra-13{
+      padding: 0px;
+    }
+
+    .dobra-13 .tracking__feature--description{
+      padding: 0 16px;
+    }
 
     .dobra-04 .showcase__gallery{
       flex-direction: column;
@@ -590,11 +641,20 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+      padding: 48px 48px 0px 48px;
     }
 
-    .showcase__gallery img{
-      max-width: 280px;
+    .dobra-15 img{
+      max-width: 248px;
     }
+
+    .dobra-15--description h3{
+      font-size: 28px;
+    }
+
+    /* .showcase__gallery img{
+      max-width: 280px;
+    } */
 
     .button-container{
       gap: 16px;
@@ -632,7 +692,7 @@
 
     
     .tracking__title{
-      font-size: 48px;
+      font-size: 28px;
       max-width: 380px;
     }
 
@@ -654,6 +714,11 @@
       margin-top: 16px;
       margin-bottom: 0px;
     }
+
+
+  .dobra-11 h3{
+    padding: 0 16px;
+  }
   }
 
 
@@ -672,6 +737,7 @@
 
   .lidar__description{
     color: #a6a6a6;
+    z-index: 1;
     max-width: 670px;
   }
 
@@ -684,4 +750,16 @@
 
   .feature--03 .tracking__feature-description{
     max-width: 720px;
+  }
+
+
+
+
+   .dji-videos-style{
+    max-width: 968px;
+    width: 100%;
+  }
+
+  .dji-videos-style video{
+    width: 100%;
   }
